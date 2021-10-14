@@ -18,12 +18,11 @@ body {
   width: 100%;
   max-width: 450px;
   border-radius: 10px;
-  
+  position: relative;
 }
 
 .contacts-inner__container {
   padding: 20px;
-  position: relative;
 }
 
 .contacts-container__header {
@@ -68,8 +67,8 @@ body {
 /* Button add */
 .contact-button__add {
   position: absolute;
-  bottom: 75px;
-  right: 50px;
+  bottom: 30px;
+  right: 30px;
   background-color: lightskyblue;
   border-radius: 50%;
   display: flex;
