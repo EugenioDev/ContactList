@@ -1,12 +1,16 @@
 // https://jsonplaceholder.typicode.com/users
 
+
+
 document.addEventListener("DOMContentLoaded", function () {
+  
+
   const xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && xhr.status === 200) {
       const users = JSON.parse(xhr.responseText);
-      users.splice(0,5)
-      console.log(users);
+      users.splice(0, 5);
+      // console.log(users);
       let divContentBody = "";
 
       for (let user of users) {

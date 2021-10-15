@@ -23,7 +23,10 @@
         <div class="contacts-body">
           <div class="contact-body-contact">
             <div class="contact-image">
-              <img src="./images/alexander-krivitskiy-ziJ0plLsYAU-unsplash.jpg" alt="">
+              <img
+                src="./images/alexander-krivitskiy-ziJ0plLsYAU-unsplash.jpg"
+                alt=""
+              />
             </div>
             <div class="contact-info">
               <h2>Pamela Cox</h2>
@@ -34,10 +37,27 @@
       </div>
       <div class="contact-button__add">
         <button>
-          <img src="./images/plus (2).png" alt="">
+          <img src="./images/plus (2).png" alt="" />
         </button>
       </div>
+      <!-- Click Event on Form -->
+      <form id="form">
+        <h3>Add new Contact</h3>
+        <div class="form-info-inner">
+          <label for="name" id="name">Name</label>
+          <input type="text" />
+        </div>
+        <div class="form-info-inner">
+          <label for="username" id="username">Username</label>
+          <input type="text" />
+        </div>
+        <div class="form-info-inner">
+          <label for="email" id="email">email</label>
+          <input type="email" />
+        </div>
+        <button id="inserisciPersona" type="submit">Aggiungi Contatto</button>
+      </form>
     </div>
-    <script src="app.js"></script>
+    <script src="app.js" type="module"></script>
   </body>
 </html>
